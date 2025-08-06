@@ -1,10 +1,11 @@
 import './App.css'
+import Login from './components/Login'
 
 function App() {
 
   return (
     <>
-     <h1 className='text-red-500'>Dudaram Choudhary</h1>
+        <Login/>
     </>
   )
 }
