@@ -1,11 +1,11 @@
+import { RouterProvider } from 'react-router-dom'
 import './App.css'
-import Login from './components/Login'
-
+import router from '../src/config/routeConfig.tsx'
 function App() {
 
   return (
     <>
-        <Login/>
+        <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
